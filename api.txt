@@ -1,0 +1,25 @@
+different ways of data in request/input
+- Queryparam ?num1=8/sort=desc
+- header 
+- body
+- Cookie - to keep store even if we close the browser, fb shop(browser,inscpect application)
+- Path Param -> usecase: version of wesite like python docs, 
+
+browser is made for 'get' functionality at url
+
+different ways of data in response/output
+-body
+-Cookie 
+DIFFERENCE BETWEEN ALL
+
+Different https methods ()
+1.get (get doesnt have request body, while it has response body, except - python)
+- post (create new record/upload)
+- patch (minor change)
+- put (major change, update)
+- delete
+- connect (establish connection to frontend to serverside, may not read or write)
+- head (only way to transfer data is headers, similar to GET)
+- options (if same routes/resource, but methods are different, [it describes communication options(methods) for target resources/routes/endpoint])
+9.trace ()
+===============api completed===============

@@ -1,0 +1,17 @@
+rest(json), soap api(xml)
+microservice(architecture)- monolatic(if paymentgateway breaks,entire application fails){scalability- during festival, everything up}, 
+searching requires more load for my apllication.
+
+npm install express
+node index.js
+nodejs == python
+react/angular(frontend framework)
+,express == flask/django framework
+
+Logging (https://www.section.io/engineering-education/logging-with-winston/#:~:text=Winston%20provides%20logging%20levels.,priority%20over%20a%20verbose%20log.)
+creating and posting database using psql
+discuss on sql query and connect sql
+
+architecture of node js
+microservice
+==============token system, security===========
