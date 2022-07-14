@@ -1,0 +1,33 @@
+myconnection
+127.0.0.1 port=5432
+password = password
+username = service
+datavse = api 
+
+
+CREATE TABLE users (
+  ID SERIAL PRIMARY KEY,
+  name VARCHAR(30),
+  email VARCHAR(30),
+  salary INTEGER,
+  department VARCHAR(30)
+);
+
+INSERT INTO users (name, email,salary,department)
+  VALUES ('Jerry', 'jerry@example.com', 5555 , 'HR'), 
+  ('George', 'george@example.com', 4444, 'Sales'),
+  ('Cherry', 'cherry@example.com', 3455 , 'HR'),
+  ('Tom', 'tom@example.com', 23231 , 'Developer'),
+  ('Tom2', 'tom2@example.com', 23232 , 'Developer'),
+  ('Tom3', 'tom3@example.com', 23233 , 'Developer'),
+  ('Tom4', 'tom4@example.com', 23234 , 'Developer'),
+  ('Tom5', 'tom5@example.com', 23235 , 'Developer'),
+  ('Tom6', 'tom6@example.com', 23236 , 'Developer'),
+  ('Tom7', 'tom7@example.com', 23237 , 'Developer'),
+  ('Tom8', 'tom8@example.com', 232388 , 'Developer'),
+  ('George2', 'george2@example.com', 44442, 'Sales'),
+  ('George3', 'george3@example.com', 44434, 'Sales'),
+  ('George4', 'george4@example.com', 44444, 'Sales'),
+  ('George5', 'george5@example.com', 45444, 'Sales'),
+  ('George6', 'george6@example.com', 46444, 'Sales'),
+  ('Jerry2', 'jerry2@example.com', 55525 , 'HR') ;

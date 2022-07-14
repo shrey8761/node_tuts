@@ -2,6 +2,13 @@ rest(json), soap api(xml)
 microservice(architecture)- monolatic(if paymentgateway breaks,entire application fails){scalability- during festival, everything up}, 
 searching requires more load for my apllication.
 
+
+
+ng version
+npm -version
+nodemon -version
+nodemon index.js (file you want to run)
+
 npm install express
 node index.js
 nodejs == python
@@ -9,9 +16,21 @@ react/angular(frontend framework)
 ,express == flask/django framework
 
 Logging (https://www.section.io/engineering-education/logging-with-winston/#:~:text=Winston%20provides%20logging%20levels.,priority%20over%20a%20verbose%20log.)
-creating and posting database using psql
-discuss on sql query and connect sql
+https://www.section.io/engineering-education/logging-with-winston/
+============
+https://blog.logrocket.com/crud-rest-api-node-js-express-postgresql/
+http://vitaly-t.github.io/pg-promise/index.html 
 
-architecture of node js
-microservice
-==============token system, security===========
+creating and posting database using psql and connect sql
+discuss on sql query , procedures, func
+
+architecture of node js ==> controller, model, 
+hosting(heroku) and deployment ci/cd
+============== token system, security ===========
+
+
+
+nano ~/.bashrc
+export PATH=$PATH/Applications/Postgres.app/Contents/Versions/14/bin/psql
+ ~/.bash_profile
+https://apple.stackexchange.com/questions/231401/why-dont-changes-in-the-bashrc-file-work-on-a-new-terminal-window
