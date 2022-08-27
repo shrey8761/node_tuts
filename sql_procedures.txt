@@ -1,0 +1,22 @@
+procedure is used so that we can get exact sql query ...(CRUD, NOT NESSECARILY TO RETURN VALUE)
+
+function can be used within the query...(cant do CRUD)
+function always return value(void possible). funciton dont have try catch
+
+
+#integer 
+https://dba.stackexchange.com/questions/257596/returning-values-for-stored-procedures-in-postgresql
+
+CREATE OR REPLACE PROCEDURE public.get_user(INOUT user_id integer DEFAULT null)
+ LANGUAGE plpgsql
+AS $procedure$
+BEGIN
+SELECT salary from users where id = user_id
+INTO user_id;
+END
+$procedure$
+
+CALL get_user(2)
+
+
+/* DROP PROCEDURE public.get_user(INOUT user_id integer) */

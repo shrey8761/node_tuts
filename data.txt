@@ -2,7 +2,7 @@ myconnection
 127.0.0.1 port=5432
 password = password
 username = service
-datavse = api 
+database = api 
 
 
 CREATE TABLE users (

@@ -1,3 +1,4 @@
+FIRST NODE EXPRESS PRACTICE APP
 rest(json), soap api(xml)
 microservice(architecture)- monolatic(if paymentgateway breaks,entire application fails){scalability- during festival, everything up}, 
 searching requires more load for my apllication.
@@ -25,12 +26,32 @@ creating and posting database using psql and connect sql
 discuss on sql query , procedures, func
 
 architecture of node js ==> controller, model, 
-hosting(heroku) and deployment ci/cd
-============== token system, security ===========
+hosting(heroku) and deployment ci/cd(sonark cube)(unit_test),sourctree, OOPS   
+    tcp osi persistent http layer sockets(networking protocols) in computer networks, write documentatiion abt project		
+    doms tree html, virtual dom 		docker, ansible, aws, cloud,teraform, jenkin, system design?, , 
+    thread , socket, pagination(adds page and limit in response body), day
+    factory setup , scaling, readablitity, maintability, data
+    swagger(making api documentation,) , authentication, javascript mastery
+============= ==============
+angular concepts()(components,modules,directives,pipes,routing) 
+architecture of front end(automatic from cli)
+hosting angular app
+connecting front end and backend(connecting apis)
 
-
+============== token system, security =========== (jwt,login page,user password)
 
 nano ~/.bashrc
 export PATH=$PATH/Applications/Postgres.app/Contents/Versions/14/bin/psql
  ~/.bash_profile
+ ~/.zsh_profile
 https://apple.stackexchange.com/questions/231401/why-dont-changes-in-the-bashrc-file-work-on-a-new-terminal-window
+
+echo $SHELL #to print activate SHELL
+chsh -s /bin/zsh #to change to zsh or bash
+
+PROMPT='%B%F{cyan}%1~%f %F{178}$%f %b'
+
+bootstrap == material ui 
+electron js = desktop app
+reactive - mobile apps 
+chrome dev tools 
